@@ -102,6 +102,8 @@ function calculateResult(){
   if (retireRemain < 0){
     document.getElementsByClassName('conversation')[0].innerHTML = "Looks like you can still have a stable income after retirement. How about retire now?"
     document.getElementById('character-picture').setAttribute("src","img/s_ure.png");
+    document.getElementById('css').setAttribute("href","css/style.css");
+    errorTime = 0;
     return false;
   }
   do{
@@ -149,5 +151,5 @@ function calculateResult(){
     document.getElementById('character-picture').setAttribute("src","img/s_gimonn.png");
   }
   document.getElementById('css').setAttribute("href","css/style.css");
-
+  errorTime = 0;
 }
