@@ -1,0 +1,107 @@
+@media (max-width: 590px){
+  .flex-test{
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex-test .interaction-placer{
+    text-align:center;
+  }
+}
+body{
+  background: red;
+  background-repeat: repeat;
+  width:100%;
+  height: 100%;
+  margin: 8px 0px 8px;
+}
+h1{
+  font-family: 'Eater', cursive;
+  font-size:3em;
+  width:100%;
+  text-align: center;
+  border-bottom: 3px solid;
+  padding:10px 0px;
+  margin:5px 0px;
+}
+.flex-test{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  //width: 50%;
+  //background: linear-gradient(#EFC096, #96B0EF)
+}
+.flex-test .calculator{
+  flex:1;
+  height: 600px;
+  flex-basis: 32%;
+  flex-grow:0;
+  flex-shrink:0;
+  //background-color: grey;
+  margin: 3px;
+  text-align: center;
+}
+table{
+  height: 100%;
+}
+tbody tr:nth-child(odd){
+  background-color: 	rgba(255, 204, 204, 0.5);
+}
+tbody tr:nth-child(even){
+  background-color: 	rgba(91, 220, 130, 0.3);
+}
+.flex-test .interaction-placer{
+  //flex:1;
+  //flex-basis: 32%;
+  position: relative;
+  width: 300px;
+  height: 600px;
+  flex-grow:0;
+  flex-shrink:0;
+  margin: 3px;
+  //background-color: blue;
+}
+.character-holder{
+  position: absolute;
+  bottom: 0px;
+}
+.conversation-holder{
+  background: url(../img/speech.png);
+  background-size: cover;
+  width:90%;
+  text-align:center;
+  margin: 0px;
+  height: 200px;
+}
+.character{
+  width:100%;
+}
+th{
+  letter-spacing: -5px;
+  padding-left: 10px;
+  border:0;
+}
+td{
+  padding-right: 10px;
+  border:0;
+}
+#result-calculate{
+  border-radius: 30px
+}
+.conversation{
+  margin: 0 auto;
+  font-family: 'Eater', cursive;
+  font-size: 15px;
+  padding: 20px 30px;
+  word-wrap:break-word;
+
+}
+.annotation{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding: 10px 50px;
+}
+.kuhaku{
+  width: 0;
+  height: 0;
+}

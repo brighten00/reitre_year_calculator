@@ -1,0 +1,102 @@
+body{
+  background-image: url(../img/backtest2.png);
+  background-repeat: repeat;
+  width:100%;
+  height: 100%;
+  margin: 8px 0px 8px;
+}
+h1{
+  font-size:3em;
+  width:100%;
+  text-align: center;
+  border-bottom: 3px solid;
+  padding:10px 0px;
+  margin:5px 0px;
+}
+.flex-test{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  //width: 50%;
+  //background: linear-gradient(#EFC096, #96B0EF)
+}
+.flex-test .calculator{
+  flex:1;
+  height: 600px;
+  flex-basis: 32%;
+  flex-grow:0;
+  flex-shrink:0;
+  //background-color: grey;
+  margin: 3px;
+  text-align: center;
+}
+table{
+  height: 100%;
+}
+tbody tr:nth-child(odd){
+  background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 30%, #f6f6f6 30%, #e5e5e5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(30%,#f6f6f6), color-stop(30%,#f6f6f6), color-stop(100%,#e5e5e5));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 30%,#f6f6f6 30%,#e5e5e5 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 30%,#f6f6f6 30%,#e5e5e5 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 30%,#f6f6f6 30%,#e5e5e5 100%);
+	background: linear-gradient(to bottom,  #fff 0%,#f0f0f0 40%,#f0f0f0 40%,#fff 100%);
+}
+tbody tr:nth-child(even){
+  background-color: 	rgba(91, 220, 130, 0.3);
+}
+.flex-test .interaction-placer{
+  //flex:1;
+  //flex-basis: 32%;
+  position: relative;
+  align-items: center;
+  //width: 100%;
+  height: 600px;
+  flex-grow:0;
+  flex-shrink:0;
+  margin: 3px;
+  //background-color: blue;
+}
+.character-holder{
+  width:300px;
+  //position: absolute;
+  bottom: 0px;
+  margin: 0 auto;
+}
+.conversation-holder{
+  background: url(../img/speech.png);
+  background-size: cover;
+  width:300px;
+  text-align:center;
+  margin: 0 auto;
+  height: 200px;
+}
+.character{
+  width:100%;
+}
+th{
+  padding-left: 10px;
+  border:0;
+}
+td{
+  padding-right: 10px;
+  border:0;
+}
+#result-calculate{
+  border-radius: 30px
+}
+.conversation{
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+  padding: 20px 30px;
+  word-wrap:break-word;
+
+}
+.annotation{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding: 10px 50px;
+}
