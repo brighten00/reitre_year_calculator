@@ -148,5 +148,6 @@ function calculateResult(){
     document.getElementsByClassName('conversation')[0].innerHTML = "Have you ever considered to be a professional trader?"
     document.getElementById('character-picture').setAttribute("src","img/s_gimonn.png");
   }
+  document.getElementById('css').setAttribute("href","css/style.css");
 
 }
