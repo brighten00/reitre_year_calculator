@@ -1,51 +1,79 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Years to retire Calculator 定年 計算器</title>
-    <link rel="stylesheet" href="css/style.css" id="css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" id="css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Eater"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <h1 id="years">Years to retire Calculator</h1>
     <div class="flex-test">
       <div class="calculator">
-        <table align="center" border=0  rules=none>
+        <table align="center" border="0" rules="none">
           <tbody>
             <tr align="left">
               <th><a>Expected life span</a></th>
-              <td><input type="number" id="expected-life" value="85" min="20" max="120"></td>
+              <td>
+                <input
+                  type="number"
+                  id="expected-life"
+                  value="85"
+                  min="20"
+                  max="120"
+                />
+              </td>
             </tr>
             <tr align="left">
               <th><a>Current age</a></th>
-              <td><input type="number" id="current-age" value="25" min="20" max="120"></td>
+              <td>
+                <input
+                  type="number"
+                  id="current-age"
+                  value="25"
+                  min="20"
+                  max="120"
+                />
+              </td>
             </tr>
             <tr align="left">
               <th><a>Current monthly income</a></th>
-              <td><input type="number" id="monthly-income"></td>
+              <td><input type="number" id="monthly-income" /></td>
             </tr>
             <tr align="left">
               <th><a>Current monthly expense</a></th>
-              <td><input type="number" id="monthly-expense"></td>
+              <td><input type="number" id="monthly-expense" /></td>
             </tr>
             <tr align="left">
               <th><a>Monthly income after retirement</a></th>
-              <td><input type="number" id="retired-income"></td>
+              <td><input type="number" id="retired-income" /></td>
             </tr>
             <tr align="left">
               <th><a>Monthly expense after retirement</a></th>
-              <td><input type="number" id="retired-expense"></td>
+              <td><input type="number" id="retired-expense" /></td>
             </tr>
             <tr align="left">
-              <th><a>investment(each year befire retirement)</a></th>
-              <td><input type="number" id="year-investment"></td>
+              <th><a>investment(each year before retirement)</a></th>
+              <td><input type="number" id="year-investment" /></td>
             </tr>
             <tr align="left">
               <th><a>Pension at retired year</a></th>
-              <td><input type="number" id="retired-pension"></td>
+              <td><input type="number" id="retired-pension" /></td>
             </tr>
             <!--<tr align="left">
 
@@ -54,19 +82,35 @@
             </tr>-->
             <tr align="left">
               <th><a>Investment return rate(year)</a></th>
-              <td><input type="number" id="irr" value="1" min="-100" max="5000"><a>%</a></td>
+              <td>
+                <input
+                  type="number"
+                  id="irr"
+                  value="1"
+                  min="-100"
+                  max="5000"
+                /><a>%</a>
+              </td>
             </tr>
             <tr align="left">
               <th><a>Current saving</a></th>
-              <td><input type="number" id="current-saving"></td>
+              <td><input type="number" id="current-saving" /></td>
             </tr>
             <tr align="left">
               <th><a>Current investment</a></th>
-              <td><input type="number" id="current-investment"></td>
+              <td><input type="number" id="current-investment" /></td>
             </tr>
             <tr align="right">
               <th></th>
-              <td><button id="result-calculate" type="button" onclick="calculateResult();errorReact();">Calculate!</button></td>
+              <td>
+                <button
+                  id="result-calculate"
+                  type="button"
+                  onclick="calculateResult();errorReact();"
+                >
+                  Calculate!
+                </button>
+              </td>
             </tr>
           </tbody>
         </table>
@@ -75,17 +119,28 @@
       </div>
       <div class="interaction-placer">
         <div class="conversation-holder">
-          <div class="conversation">Fill the form, so we can know how many years you still need to work.</div>
+          <div class="conversation">
+            Fill the form, so we can know how many years you still need to work.
+          </div>
         </div>
         <div class="character-holder">
-          <img src="img/s_normal.png" class="character" id="character-picture"/>
+          <img
+            src="img/s_normal.png"
+            class="character"
+            id="character-picture"
+          />
         </div>
       </div>
     </div>
     <script type="text/javascript" src="js/myscript.js"></script>
   </body>
   <footer>
-    <p class="annotation">The calculator does not assume any asset remained after death and it is higher recommanded to earn more money for emergent situation</p>
-    <p class="annotation">Made by brightn00, pictures from http://sozai.hanabie.com/</p>
+    <p class="annotation">
+      The calculator does not assume any asset remained after death and it is
+      higher recommanded to earn more money for emergent situation
+    </p>
+    <p class="annotation">
+      Made by brightn00, pictures from http://sozai.hanabie.com/
+    </p>
   </footer>
 </html>
